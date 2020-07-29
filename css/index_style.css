@@ -1,0 +1,350 @@
+body{
+  font-family: 'Lexend deca', cursive;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+
+}
+main{
+  padding:0;
+  margin: 0;
+}
+nav{
+  background-color: #03a9f4  !important;
+  }
+
+ul {
+  margin:0;
+}
+
+footer{
+	background-color: #03a9f4 !important;
+
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.arrow-container a{
+  background-color: #03a9f4;
+}
+
+.arrow-container a:hover{
+  background-color: #bbdefb;
+}
+
+.arrow-container a:after{
+  background-color: #bbdefb;
+}
+
+
+@media only screen and (max-width:599px){                 /*Mobile*/
+
+
+.bannerContainer{
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.banner{
+  height: 100vh;
+}
+
+
+
+.bannerText{
+  position: absolute;
+  color: white;
+  font-size: 5em;
+  width: 100%;
+  text-align: center;
+  top: 40vh;
+  font-weight: bold;
+
+}
+
+.slogan{
+  position: absolute;
+  color: white ;
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+  top: 73vh;
+  font-weight: bold;
+}
+
+.arrow-container{
+  position: absolute;
+  bottom:5vh;
+  width: 100%;
+  text-align: center;
+}
+
+.ceroContainer{
+  position: relative;
+  height: 110vh;
+  overflow: hidden;
+  background-color: #1a237e;
+  color: white;
+}
+
+.titleCero{
+  position: absolute;
+  font-size: 2em;
+  width: 100%;
+  text-align:center;
+  top: 5vh;
+  font-weight: bold;
+}
+
+.treeContainer{
+  position: absolute;
+  top:10vh;
+  width: 100%;
+  text-align: center;
+}
+
+.tree{
+  width: 94vw;
+}
+
+.aguaRiesgo{
+  position: absolute;
+  font-size: 1.7em;
+  top: 55vh;
+    left: 3vw;
+    width: 100vw;
+    height: 20vh;
+}
+
+.aguaLista{
+  position: absolute;
+  font-size: 1.7em;
+  top: 80vh;
+    left: 3vw;
+    width: 100vw;
+    height: 20vh;
+}
+
+.appContainer{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.appTitle{
+  font-size: 2em;
+  top: 5vh;
+  font-weight: bold;
+}
+
+.app{
+  height: 60vh;
+  top: 17vh;
+}
+
+.app5{
+  display: none;
+}
+
+.app10{
+ display: none;
+}
+
+.btnGoogle{
+  top: 5vh;
+  border-radius:10px !important;
+}
+
+.btnApple{
+  top: 10vh;
+  border-radius:10px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}                                             /*End Mobile*/
+
+
+@media (max-width: 790px){                      /*Tablet*/
+
+
+
+
+
+
+
+
+
+}                                             /*End Tablet*/
+
+
+
+@media (min-width: 791px){                    /*Desktop*/
+
+.bannerContainer{
+  overflow: hidden;
+  height: 95vh;
+
+}
+
+.banner{
+  width: 100vw;
+  transform: translate(0px, -200px);
+}
+
+
+
+.bannerText{
+  position: absolute;
+  color: white;
+  font-size: 5em;
+  width: 100%;
+  text-align: center;
+  top: 40vh;
+  font-weight: bold;
+
+}
+
+.slogan{
+  position: absolute;
+  color: white ;
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+  top: 55vh;
+  font-weight: bold;
+}
+
+.arrow-container{
+  position: absolute;
+  bottom:5vh;
+  width: 100%;
+  text-align: center;
+}
+
+.ceroContainer{
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+  background-color: #1a237e;
+  color: white;
+}
+
+.titleCero{
+  position: absolute;
+  font-size: 2em;
+  width: 100%;
+  text-align:center;
+  top: 5vh;
+  font-weight: bold;
+}
+
+.treeContainer{
+  position: absolute;
+  top:10vh;
+  width: 100%;
+  text-align: center;
+}
+
+.tree{
+  width: 30vw;
+}
+
+.aguaRiesgo{
+  position: absolute;
+  font-size: 1.7em;
+  top: 30vh;
+  left: 5vw;
+  width: 26vw;
+  height: 20vh;
+}
+
+.aguaLista{
+  position: absolute;
+  font-size: 1.7em;
+  top: 30vh;
+  right: 5vw;
+  width: 26vw;
+  height: 20vh;
+}
+
+.appContainer{
+  position: relative;
+  height: 80vh;
+  
+}
+
+.appTitle{
+  position: absolute;
+  font-size: 2em;
+  left: 2.5vw;
+  top: 5vh;
+  font-weight: bold;
+}
+
+.app{
+  position: absolute;
+  height: 60vh;
+  top: 17vh;
+  left: 7vw;
+}
+
+.app5{
+  position: absolute;
+  height: 60vh;
+  top: 17vh;
+  left: 25vw;
+}
+
+.app10{
+  position: absolute;
+  height: 60vh;
+  top: 17vh;
+  left: 43vw;
+}
+
+.btnGoogle{
+  position:absolute !important;
+  bottom: 20vh;
+  left: 60vw;
+  border-radius:10px !important;
+}
+
+.btnApple{
+  position:absolute !important;
+  bottom: 20vh;
+  left: 75vw;
+  border-radius:10px !important;
+}
+
+
+
+
+}                        /*End Desktop  */

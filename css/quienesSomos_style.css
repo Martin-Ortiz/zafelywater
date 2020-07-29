@@ -1,0 +1,387 @@
+body{
+  font-family: 'Lexend Deca', cursive;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+main{
+  padding:0;
+  margin: 0;
+}
+nav{
+  background-color: #03a9f4  !important;
+  }
+
+ul {
+  margin:0;
+}
+
+footer{
+	background-color: #03a9f4  !important;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.arrow-container a{
+  background-color: #03a9f4;
+}
+
+.arrow-container a:hover{
+  background-color: #bbdefb;
+}
+
+.arrow-container a:after{
+  background-color: #bbdefb;
+}
+
+
+@media only screen and (max-width:599px){                 /*Mobile*/
+
+.rainContainer{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 95vh;
+  text-align: center;
+}
+
+.we{
+  height: 100vh;
+}
+
+.Title{
+  position: absolute;
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+  width: 100vw;
+  text-align: center;
+  z-index: 1;
+  left: 0;
+  top: 35vh;
+
+}
+
+.arrow-container{
+  position: absolute;
+  bottom:5vh;
+  width: 100%;
+  text-align: center;
+}
+
+.infoContainer{
+  position: relative;
+  height: 100vh;
+
+}
+.necesidadContainer{
+  position: relative;
+  width: 99%;
+  font-size: 1.5em;
+}
+
+.cadaInfo{
+  position: absolute;
+  top: 5vh;
+  left: 2vw;
+}
+
+.crearInfo{
+  position: absolute;
+  top: 40vh;
+  left: 2vw;
+}
+
+.boy{
+  position: absolute;
+  width: 100vw;
+  bottom: 0vh;
+  right: 5vw;
+}
+
+.zafelyContainer{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 95vh;
+}
+
+.TitleDos{
+  position: absolute;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #1a237e;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  top: 5vh;
+}
+
+.textZafely{
+  position: absolute;
+  font-size: 1.5em;
+    width: 95%;
+    top: 20vh;
+}
+
+
+.textZafelyTwo{
+  position: absolute;
+  font-size: 1.5em;
+    width: 95%;
+    top: 50vh;
+}
+
+.modulContainer{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 95vh;
+}
+
+.modul{
+      height: 100vh;
+    transform: translate(-700px, 0px);
+}
+
+.TitleModul{
+  position: absolute;
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  z-index: 1;
+      width: 100%;
+    text-align: center;
+    top: 5vh;
+}
+
+.textModul{
+  position: absolute;
+    font-size: 1.5em;
+    width: 100%;
+    top: 22vh;
+    /* left: 5vw; */
+    color: white;
+    font-weight: bold;
+}
+
+
+.objetivoContainer{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 80vh;
+}
+
+.titleObjetivo{
+  position: absolute;
+  font-size: 3em;
+  font-weight: bold;
+  
+  z-index: 1;
+  left: 5vw;
+  top: 5vh;
+}
+
+.objetivoText{
+  position: absolute;
+  font-size: 1.5em;
+    width: 100%;
+    top: 15vh;
+}
+
+.lista{
+  position: absolute;
+  font-size: 1.5em;
+  top: 30vh;
+  left: 10vw;
+}
+
+
+
+}                                             /*End Mobile*/
+
+
+@media (max-width: 790px){                      /*Tablet*/
+
+
+
+
+
+
+
+
+
+}                                             /*End Tablet*/
+
+
+
+@media (min-width: 791px){                    /*Desktop*/
+
+.rainContainer{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 95vh;
+  text-align: center;
+}
+
+.we{
+  width: 100%;
+}
+
+.Title{
+  position: absolute;
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
+  width: 100vw;
+  text-align: center;
+  z-index: 1;
+  left: 0;
+  top: 35vh;
+
+}
+
+.arrow-container{
+  position: absolute;
+  bottom:5vh;
+  width: 100%;
+  text-align: center;
+}
+
+.infoContainer{
+  position: relative;
+  height: 50vh;
+
+}
+.necesidadContainer{
+  position: relative;
+  float: left;
+  width: 50%;
+  font-size: 1.5em;
+}
+
+.cadaInfo{
+  position: absolute;
+  top: 5vh;
+  left: 2vw;
+}
+
+.crearInfo{
+  position: absolute;
+  top: 40vh;
+  left: 2vw;
+}
+
+.boy{
+  position: absolute;
+  width: 25vw;
+  top: 4.5vh;
+  right: 5vw;
+}
+
+.zafelyContainer{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 95vh;
+}
+
+.TitleDos{
+  position: absolute;
+  font-size: 3em;
+  font-weight: bold;
+  color: #1a237e;
+  z-index: 1;
+  left: 5vw;
+  top: 5vh;
+}
+
+.textZafely{
+  position: absolute;
+  font-size: 2em;
+  width: 50%;
+  top: 18vh;
+  left: 5vw;
+}
+
+
+.textZafelyTwo{
+  position: absolute;
+  font-size: 2em;
+  width: 50%;
+  top: 35vh;
+  left: 5vw;
+}
+
+.modulContainer{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 95vh;
+}
+
+.modul{
+  width: 100%;
+}
+
+.TitleModul{
+  position: absolute;
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  z-index: 1;
+  left: 5vw;
+  top: 5vh;
+}
+
+.textModul{
+  position: absolute;
+  font-size: 2em;
+  width: 50%;
+  top: 16vh;
+  left: 5vw;
+  color: white;
+  font-weight: bold;
+}
+
+
+.objetivoContainer{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 80vh;
+}
+
+.titleObjetivo{
+  position: absolute;
+  font-size: 3em;
+  font-weight: bold;
+  
+  z-index: 1;
+  left: 5vw;
+  top: 5vh;
+}
+
+.objetivoText{
+  position: absolute;
+  font-size: 2em;
+  width: 50%;
+  top: 15vh;
+  left: 5vw;
+}
+
+.lista{
+  position: absolute;
+  font-size: 2em;
+  top: 30vh;
+  left: 10vw;
+}
+
+
+
+}                        /*End Desktop  */

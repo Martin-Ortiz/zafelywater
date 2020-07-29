@@ -1,0 +1,228 @@
+body{
+  font-family: 'Lexend Deca', cursive;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+main{
+  padding:0;
+  margin: 0;
+}
+nav{
+  background-color: #03a9f4 !important;
+  }
+
+ul {
+  margin:0;
+}
+
+footer{
+	background-color: #03a9f4 !important;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.arrow-container a{
+  background-color: #03a9f4;
+}
+
+.arrow-container a:hover{
+  background-color: #bbdefb;
+}
+
+.arrow-container a:after{
+  background-color: #bbdefb;
+}
+
+
+@media only screen and (max-width:599px){                 /*Mobile*/
+
+
+.bannerContainer{
+  overflow: hidden;
+  height: 100vh;
+
+}
+
+.banner{
+  height: 100vh;
+}
+
+
+
+.bannerText{
+  position: absolute;
+  color: white;
+  font-size: 4em;
+  width: 100%;
+  text-align: center;
+  top: 40vh;
+  font-weight: bold;
+
+}
+
+.slogan{
+  position: absolute;
+  color: white ;
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+  top: 65vh;
+  font-weight: bold;
+}
+
+.arrow-container{
+  position: absolute;
+  bottom:5vh;
+  width: 100%;
+  text-align: center;
+}
+
+.ceroContainer{
+  position: relative;
+    overflow: hidden;
+    width: 100vw;
+    text-align: center;
+
+}
+
+.titleCero{
+  font-size: 2em;
+  width: 100%;
+  text-align:center;
+  top: 3vh;
+  font-weight: bold;
+}
+
+.treeContainer{
+  padding-bottom:1vh;
+  top:10vh;
+  width: 100%;
+  text-align: center;
+}
+
+.tree{
+  position: absolute;
+    top: 5vh;
+    left: 5vw;
+    width: 15vw;
+}
+
+.lista{
+  position: relative;
+    bottom: 5vh;
+    left: 0vw;
+    padding-top: 4vh;
+}
+
+
+
+
+}                                             /*End Mobile*/
+
+
+@media (max-width: 790px){                      /*Tablet*/
+
+
+
+
+
+
+
+
+
+}                                             /*End Tablet*/
+
+
+
+@media (min-width: 791px){                    /*Desktop*/
+
+.bannerContainer{
+  overflow: hidden;
+  height: 95vh;
+
+}
+
+.banner{
+  width: 100vw;
+  transform: translate(0px, -200px);
+}
+
+
+
+.bannerText{
+  position: absolute;
+  color: white;
+  font-size: 5em;
+  width: 100%;
+  text-align: center;
+  top: 40vh;
+  font-weight: bold;
+
+}
+
+.slogan{
+  position: absolute;
+  color: white ;
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+  top: 55vh;
+  font-weight: bold;
+}
+
+.arrow-container{
+  position: absolute;
+  bottom:5vh;
+  width: 100%;
+  text-align: center;
+}
+
+.ceroContainer{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+    text-align: center;
+}
+
+.titleCero{
+  font-size: 2em;
+  width: 100%;
+  text-align:center;
+  top: 3vh;
+  font-weight: bold;
+}
+
+.treeContainer{
+  
+  top:10vh;
+  width: 100%;
+  text-align: center;
+}
+
+.tree{
+  position: absolute;
+    top: 5vh;
+    left: 5vw;
+    width: 15vw;
+}
+
+.lista{
+  position: relative;
+    bottom: 5vh;
+    left: 0vw;
+    padding-top: 5vh;
+}
+
+
+
+
+
+
+
+
+
+}                        /*End Desktop  */

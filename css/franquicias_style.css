@@ -1,0 +1,175 @@
+body{
+  font-family: 'Lexend Deca', cursive;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+main{
+  padding:0;
+  margin: 0;
+}
+nav{
+  background-color: #03a9f4 !important;
+  }
+
+ul {
+  margin:0;
+}
+
+footer{
+	background-color: #03a9f4 !important;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.arrow-container a{
+  background-color: #03a9f4;
+}
+
+.arrow-container a:hover{
+  background-color: #bbdefb;
+}
+
+.arrow-container a:after{
+  background-color: #bbdefb;
+}
+
+
+@media only screen and (max-width:599px){                 /*Mobile*/
+
+.franquiciasBanner{
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.market{
+  position: relative;
+  height: 100%;
+
+}
+
+.Title{
+  position: absolute;
+  font-size: 3em;
+  color: white;
+  font-weight: bold;
+  z-index: 1;
+  top: 50vh;
+  left: 0;
+  width: 100%;
+  text-align: center;
+    
+}
+
+.arrow-container{
+  position: absolute;
+  bottom:5vh;
+  width: 100%;
+  text-align: center;
+}
+
+.conoceContainer{
+  height: 380vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.conoce{
+  font-size: 3em;
+  width: 100%;
+  text-align:center;
+}
+
+.modul3{
+  height: 100vh;
+  transform: translate(-730px, 0px);
+}
+
+.inversion{
+  font-size: 1.4em;
+}
+
+.costoFranquicia{
+  font-size: 2.5em;
+  color: #ff4081;
+}
+
+
+
+}                                             /*End Mobile*/
+
+
+@media (max-width: 790px){                      /*Tablet*/
+
+
+
+
+
+
+
+
+
+}                                             /*End Tablet*/
+
+
+
+@media (min-width: 791px){                    /*Desktop*/
+
+.franquiciasBanner{
+  overflow: hidden;
+  width: 100%;
+  height: 95vh;
+}
+
+.market{
+  position: relative;
+  width: 100%;
+
+}
+
+.Title{
+  position: absolute;
+  font-size: 7em;
+  color: white;
+  font-weight: bold;
+  z-index: 1;
+  top: 40vh;
+  left: 0;
+  width: 100%;
+  text-align: center;
+    
+}
+
+.arrow-container{
+  position: absolute;
+  bottom:5vh;
+  width: 100%;
+  text-align: center;
+}
+
+.conoceContainer{
+  width: 100%;
+  text-align: center;
+}
+
+.conoce{
+  font-size: 3em;
+  width: 100%;
+  text-align:center;
+}
+
+.inversion{
+  font-size: 1.4em;
+}
+
+.costoFranquicia{
+  font-size: 2.5em;
+  color: #ff4081;
+}
+
+
+}                        /*End Desktop  */

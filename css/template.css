@@ -1,0 +1,68 @@
+body{
+  font-family: 'Lexend Deca', cursive;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+main{
+  padding:0;
+  margin: 0;
+}
+nav{
+  background-color: #ff4081 !important;
+  }
+
+ul {
+  margin:0;
+}
+
+footer{
+	background-color: #ff4081 !important;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.arrow-container a{
+  background-color: #ff4081;
+}
+
+.arrow-container a:hover{
+  background-color: #bbdefb;
+}
+
+.arrow-container a:after{
+  background-color: #bbdefb;
+}
+
+
+@media only screen and (max-width:599px){                 /*Mobile*/
+
+
+
+
+
+}                                             /*End Mobile*/
+
+
+@media (max-width: 790px){                      /*Tablet*/
+
+
+
+
+
+
+
+
+
+}                                             /*End Tablet*/
+
+
+
+@media (min-width: 791px){                    /*Desktop*/
+
+
+
+}                        /*End Desktop  */

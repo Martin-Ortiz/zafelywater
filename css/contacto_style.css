@@ -1,0 +1,222 @@
+body{
+  font-family: 'Lexend Deca', cursive;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+main{
+  padding:0;
+  margin: 0;
+}
+nav{
+  background-color: #03a9f4 !important;
+  }
+
+ul {
+  margin:0;
+}
+
+footer{
+	background-color: #03a9f4 !important;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.arrow-container a{
+  background-color: #03a9f4;
+}
+
+.arrow-container a:hover{
+  background-color: #bbdefb;
+}
+
+.arrow-container a:after{
+  background-color: #bbdefb;
+}
+
+ .glow {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+@media only screen and (max-width:599px){                 /*Mobile*/
+
+.contactoBanner{
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #2569FF;
+}
+
+.cameraOne{
+  height: 100vh
+}
+
+.cameraTwo{
+  display: none;
+}
+
+.cameraThree{
+ display: none;
+}
+
+.vhs{
+  position: absolute;
+  height: 78vh;
+  z-index: 1;
+  top: 2vh;
+  left: -13vw;
+  animation: blink 3s infinite;
+}
+
+@keyframes blink{
+  0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.Title{
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 2.7em;
+  width: 100vw;
+  text-align: center;
+  top: 23vh;
+  
+}
+
+
+.subTitle{
+  position: absolute;
+  color: white;
+  font-size: 1.5em;
+  top: 40vh;
+  width: 100vw;
+  text-align: center;
+}
+.brSub{
+  display: none;
+}
+.arrow-container{
+  position: absolute;
+  bottom:8vh;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+}                                             /*End Mobile*/
+
+
+@media (max-width: 790px){                      /*Tablet*/
+
+
+
+
+
+
+
+
+
+}                                             /*End Tablet*/
+
+
+
+@media (min-width: 791px){                    /*Desktop*/
+
+.contactoBanner{
+  position: relative;
+  height: 95vh;
+  overflow: hidden;
+  background-color: #2569FF;
+}
+
+.cameraOne{
+  float: left;
+  width: 33%;
+}
+
+.cameraTwo{
+  float: left;
+  width: 33%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.cameraThree{
+  float: left;
+  width: 33%;
+}
+
+.vhs{
+  position: absolute;
+  width: 42vw;
+  z-index: 1;
+  top: 2vh;
+  left: 2vw;
+  animation: blink 3s infinite;
+}
+
+@keyframes blink{
+  0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.Title{
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 5em;
+  top: 23vh;
+  right: 10vw;
+}
+
+
+.subTitle{
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  top: 40vh;
+  right: 10vw;
+}
+
+.arrow-container{
+  position: absolute;
+  bottom:5vh;
+  width: 100%;
+  text-align: center;
+}
+
+
+}                        /*End Desktop  */

@@ -1,0 +1,450 @@
+body{
+  font-family: 'Lexend Deca', cursive;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+main{
+  padding:0;
+  margin: 0;
+}
+nav{
+  background-color: #03a9f4 !important;
+  }
+
+ul {
+  margin:0;
+}
+
+footer{
+	background-color: #03a9f4 !important;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.agua{
+  color: #0091ea;
+}
+
+.arrow-container a{
+  background-color: #03a9f4;
+}
+
+.arrow-container a:hover{
+  background-color: #bbdefb;
+}
+
+.arrow-container a:after{
+  background-color: #bbdefb;
+}
+
+
+@media only screen and (max-width:599px){                 /*Mobile*/
+
+.rainContainer{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-image: url('../img/rainCity.jpg');
+  background-size:cover;
+  /*animation: backgroundColor 5s linear infinite; */
+}
+
+.rainContainer::before{
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100%;
+  background-image: url('./img/rainImg.png');
+  background-size: 100% 100%;
+  filter: opacity(.3);
+  animation: rainAnimation 0.17s linear infinite;
+}
+
+@keyframes rainAnimation {
+  0%{
+    background-position: 0% 0%;
+  }
+
+  100%{
+    background-position: 15% 100%;
+  }
+}
+
+
+@keyframes backgroundColor {
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  50%{
+    filter: hue-rotate(360deg);
+  }
+  100%{
+    filter: hue-rotate(0deg);
+  }
+
+
+}
+
+.titleBanner{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 3.7em;
+  font-weight: bold;
+  color: white;
+  top: 35vh;
+}
+
+.subTitle{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #ff4081;
+  top: 67vh;
+}
+
+.arrow-container{
+  position: absolute;
+  bottom:5vh;
+  width: 100%;
+  text-align: center;
+}
+
+.solarBanner{
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+}
+
+.solarTitle{
+  position: absolute;
+  top: 5vh;
+ width: 100vw;
+ text-align: center;
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #004d40;
+  z-index: 1;
+}
+
+.solarSub{
+  position: absolute;
+  top: 15vh;
+  left: 5vw;
+  font-size: 2em;
+  z-index: 1;
+}
+
+.solarP{
+  height: 100vh;
+}
+
+.solarResp{
+  position: absolute;
+  font-size: 2em;
+  bottom: 6vh;
+  width: 100vw;
+  z-index: 1;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+}
+
+.organicoBanner{
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.organicImg{
+  height: 100vh;
+}
+
+.organicTitle{
+  position: absolute;
+  top: 5vh;
+  width: 100vw;
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #1a237e;
+  z-index: 1;
+}
+
+.organicSub{
+  position: absolute;
+  top:35vh;
+  text-align: center;
+  font-size: 2em;
+  z-index: 1;
+  width: 100vw;
+}
+
+.sociosBanner{
+  position: relative;
+  height: 194vh;
+  overflow: hidden;
+  
+  width: 100vw;
+  text-align: center;
+}
+
+.sociosTitle{
+  top: 5vh;
+  font-size: 2.7em;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.sociosSub{
+  top: 15vh;
+  font-size: 2em;
+}
+
+.starbucks{   
+  
+  width: 100vw;
+  top: 25vh;
+  
+  z-index: 1;
+}
+
+.donut{
+  width: 100vw;
+  top: 25vh;
+  margin-top: -1vh;
+}
+
+ .retail{
+  width: 100vw;
+  margin-top: -1vh;
+}
+
+
+
+
+
+}                                             /*End Mobile*/
+
+
+@media (max-width: 790px){                      /*Tablet*/
+
+
+
+
+
+
+
+
+
+}                                             /*End Tablet*/
+
+
+
+@media (min-width: 791px){                    /*Desktop*/
+
+
+.rainContainer{
+  height: 95vh;
+  width: 100%;
+  position: relative;
+  background-image: url('../img/rainCity.jpg');
+  background-size:cover;
+  /*animation: backgroundColor 5s linear infinite; */
+}
+
+.rainContainer::before{
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url('./img/rainImg.png');
+  filter: opacity(.3);
+  animation: rainAnimation 0.17s linear infinite;
+}
+
+@keyframes rainAnimation {
+  0%{
+    background-position: 0% 0%;
+  }
+
+  100%{
+    background-position: 15% 100%;
+  }
+}
+
+
+@keyframes backgroundColor {
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  50%{
+    filter: hue-rotate(360deg);
+  }
+  100%{
+    filter: hue-rotate(0deg);
+  }
+
+
+}
+
+.titleBanner{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+  top: 35vh;
+}
+
+.subTitle{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #ff4081;
+  top: 54vh;
+}
+
+.arrow-container{
+  position: absolute;
+  bottom:5vh;
+  width: 100%;
+  text-align: center;
+}
+
+.solarBanner{
+  position: relative;
+  overflow: hidden;
+  height: 50vh;
+  width: 100%;
+}
+
+.solarTitle{
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+  font-size: 3em;
+  font-weight: bold;
+  color: #004d40;
+  z-index: 1;
+}
+
+.solarSub{
+  position: absolute;
+  top: 15vh;
+  left: 5vw;
+  font-size: 2em;
+  z-index: 1;
+  width: 35%;
+}
+
+.solarP{
+  transform: translate(0px, -390px);
+  width: 100%;
+}
+
+.solarResp{
+  position: absolute;
+  font-size: 2em;
+  bottom: 6vh;
+  right: 5vw;
+  z-index: 1;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+}
+
+.organicoBanner{
+  position: relative;
+  overflow: hidden;
+  height: 50vh;
+  width: 100%;
+}
+
+.organicImg{
+  width: 100%;
+}
+
+.organicTitle{
+  position: absolute;
+  top: 5vh;
+  right: 5vw;
+  font-size: 3em;
+  font-weight: bold;
+  color: #1a237e;
+  z-index: 1;
+}
+
+.organicSub{
+  position: absolute;
+  top:15vh;
+  right: 5vw;
+  font-size: 2em;
+  z-index: 1;
+  width: 36%;
+}
+
+.sociosBanner{
+  position: relative;
+  height: 194vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+.sociosTitle{
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+  font-size: 3em;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.sociosSub{
+  position: absolute;
+  top: 18vh;
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+}
+
+.starbucks{   
+  position: absolute;
+  width: 37.6vw;
+  top: 25vh;
+  left: 5vw;
+  z-index: 1;
+}
+
+.donut{
+  position: absolute;
+  width: 50vw;
+  top: 25vh;
+  right: 5vw;
+}
+
+ .retail{
+  position: absolute;
+  overflow: hidden;
+  width: 37.5vw;
+  top: 78vh;
+  left: 5vw; }
+
+
+
+
+}                        /*End Desktop  */
